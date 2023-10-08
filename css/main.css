@@ -1,0 +1,22 @@
+.main {
+   overflow-x: hidden; 
+}  
+.container{
+    max-width: 1920px;
+}
+.header-top{
+    height:40px;
+}
+.header-main{
+    display: flex;
+}
+.nav-menu-ul{
+    display :flex;
+    list-style: none;
+}
+.middle-img{
+    display: flex;
+}
+.middle-img img{
+    justify-content: center;
+}
