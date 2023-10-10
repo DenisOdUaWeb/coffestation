@@ -1,5 +1,9 @@
+ul{    
+    padding: 0;
+}
 a{
     text-decoration: none;
+    color:#000;
 }
 a:visited{  
     color: inherit;  
@@ -81,6 +85,7 @@ li{
         position: relative;
     }
     .nav-menu-ul{
+        padding-left: 37px;
         display: block;
         position: absolute;
         top: 80px;
@@ -90,9 +95,23 @@ li{
         transition: 0.5s;
     }
     .show-me{
-        left: -30px !important;
+        
+        left: -15px !important;
+        border-radius: 0 35px 15px 0;
+        background-color: ghostwhite;
     }
     .search-png{
         display: none;
     }
+}
+
+/* HEADER SLIDER */
+
+.slider--items{
+    height: 50vw;
+}
+.slider-item div{
+    width: 50vw;
+    height: 50vw;
+    overflow: hidden;
 }
