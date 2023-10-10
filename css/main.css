@@ -17,6 +17,9 @@ li{
 .d-flex{
     display: flex;
 }
+.d-block{
+    display:block;
+}
 /* .main {
     overflow-x: hidden; 
  } */
