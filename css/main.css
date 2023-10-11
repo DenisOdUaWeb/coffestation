@@ -24,6 +24,7 @@ li{
     overflow-x: hidden; 
  } */
 .container{
+    overflow: hidden;
     max-width: 1920px;
 }
 .header-top{
@@ -117,4 +118,26 @@ li{
     width: 50vw;
     height: 50vw;
     overflow: hidden;
+}
+.img-slider-container img{
+    width: 50vw;
+    height: 50vw; 
+}
+
+@media(max-width: 1024px){ 
+    .slider--items div{
+        width:100vw;
+        height: 100vw;
+    }
+    .slider--items{
+        width:100vw;
+        height: 100vw;
+    }
+    .img-slider-container img{
+        width: 100vw;
+        height: 100vw; 
+    }
+    .slider-item h1{
+        font-size: 10vw !important;
+    }
 }

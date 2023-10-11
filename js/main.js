@@ -14,5 +14,35 @@ document.addEventListener("DOMContentLoaded",function () {
             navUl.classList.remove("show-me");
         }
     }
+
+     //OWL CAROUSEL 
+    $('.owl-carousel').owlCarousel({
+        loop:true,
+        margin:10,
+        nav:true,
+        autoplay: true,
+        autoWidth:true,
+        autoHeight: true,
+        responsive:{
+            0:{
+                items:1,
+                center:true,
+                margin: 250,
+                autoHeight: true,
+                autoWidth: true,
+
+
+            },
+            1024:{
+                items:2
+            },
+           /* 1900:{
+                items:2
+            }*/
+        }
+    });
+    //END OWL CAROUSEL 
      
   });
+
+ 
