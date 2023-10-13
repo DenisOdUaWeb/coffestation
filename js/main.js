@@ -26,6 +26,7 @@ document.addEventListener("DOMContentLoaded",function () {
         autoplay: true,
         autoWidth:true,
         autoHeight: true,
+        dots: false,
         responsive:{
             0:{
                 items:1,
