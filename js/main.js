@@ -16,10 +16,13 @@ document.addEventListener("DOMContentLoaded",function () {
     }
 
      //OWL CAROUSEL 
+     const leftArrow = '<img src="img/left-arrow.jpg">';
+     const rightArrow = '<img src="img/right-arrow.jpg">';
     $('.owl-carousel').owlCarousel({
         loop:true,
-        margin:10,
+        margin: 10,
         nav:true,
+        navText: [leftArrow, rightArrow],
         autoplay: true,
         autoWidth:true,
         autoHeight: true,
@@ -34,11 +37,11 @@ document.addEventListener("DOMContentLoaded",function () {
 
             },
             1024:{
-                items:2
+                items:2,
             },
-           /* 1900:{
-                items:2
-            }*/
+            1900:{
+                items:3
+            }
         }
     });
     //END OWL CAROUSEL 

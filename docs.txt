@@ -1,0 +1,17 @@
+https://www.figma.com/file/ew8aUWFrrMCTzkJDVRAeNL/Untitled?type=design&node-id=0-1&mode=design&t=W8NA7OGn8MROTq0T-0
+
+
+https://www.figma.com/file/ew8aUWFrrMCTzkJDVRAeNL/Untitled?type=design&node-id=0-1&mode=design&t=W8NA7OGn8MROTq0T-0
+
+
+https://designseer.com/slick-slider-examples/
+
+
+
+https://cdnjs.com/libraries/
+
+
+OWL CROUSEL
+https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css
+https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js
+https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js
