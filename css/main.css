@@ -95,23 +95,24 @@ li{
        padding-bottom: 30px;
     }
     .header-nav{
-        position: relative;
+        #position: relative;
     }
     .nav-menu-ul{
         padding-left: 37px;
         display: block;
         position: absolute;
-        top: 80px;
+        top: 125px;
         left: -150px;
         background-color: #fff;
         -webkit-transition: 0.5s;
         transition: 0.5s;
+        z-index: 10;
     }
     .show-me{
-        
         left: -15px !important;
         border-radius: 0 35px 15px 0;
         background-color: ghostwhite;
+        z-index: 10;
     }
     .search-png{
         display: none;
@@ -127,6 +128,9 @@ li{
     width: 50vw;
     height: 50vw;
     overflow: hidden;
+}*/
+/*.owl-carousel {
+    z-index: -1000 !important;
 }*/
 .slider-item{
     width: 50vw;
