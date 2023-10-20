@@ -36,7 +36,7 @@ li{
     max-width: 1920px;
     margin: 0 auto;
 }
-.header-top{
+.header__top{
     font-family: 'Space Mono', monospace;
     font-size: 14px;
     height:40px;
@@ -47,7 +47,7 @@ li{
     justify-content: center;
     align-items: center;
 }
-.header-main{ 
+.header__main{ 
     display: flex;
     justify-content: space-between;
     align-items:center;
@@ -55,20 +55,20 @@ li{
     min-height: 100px;
     border-bottom: #000 1px solid;
 }
-.nav-menu-ul{
+.nav-header__ul{
     display :flex;
 }
-.nav-item, .search-cart-item{
+.nav-header__item, .search-cart-item{
     position: relative;
     color: #000;
 }
-.nav-item > img, .search-cart-item > img{
+.nav-header__item > img, .search-cart-item > img{
     position: absolute;
     top: 24px;
     left: 2px;
     width: inherit;
 }
-.nav-item :not(:last-child), .search-cart-item :not(:last-child){
+.nav-header__item :not(:last-child), .search-cart-item :not(:last-child){
     font-family: 'Space Mono', monospace;
     font-size: 17px;
     margin-right: 45px;
@@ -91,13 +91,13 @@ li{
     #bmenubtn {
         display: block;
     }
-    .nav-item{
+    .nav-header__item{
        padding-bottom: 30px;
     }
-    .header-main__nav{
+    .header__main__nav{
         #position: relative;
     }
-    .nav-menu-ul{
+    .nav-header__ul{
         padding-left: 37px;
         display: block;
         position: absolute;
