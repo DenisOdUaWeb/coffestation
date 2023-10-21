@@ -13,3 +13,20 @@ a:hover{text-decoration: none;}
 ul li{list-style: none;}
 img{vertical-align: top;}
 h1,h2,h3,h4,h5,h6{font-size: inherit;font-weight: inherit;}
+
+ul{    
+    padding: 0;
+}
+a{
+    text-decoration: none;
+    color:#000;
+}
+a:visited{  
+    color: inherit;  
+}  
+a:hover{  
+    color: inherit;  
+}  
+li{
+    list-style: none;
+}
