@@ -165,9 +165,7 @@
 
 /*small section*/
 .small-section{
-
     border-top: solid 1px #000;  
-    
     font-family: 'Space Mono', monospace;
     font-size: 16px;
     line-height: 1;
@@ -184,8 +182,6 @@
 }
 
 .small-section__block > div:not(:last-child){
-
-    
     border-right: solid 1px #000;
 }
 
@@ -197,26 +193,38 @@
     border-bottom: 1px solid #000;
     display: flex;
     justify-content: center;
-    align-items: center;
 }
 .our-blends__info {
     width: 50%;
-    padding: 80px 90px;
+    padding: 4% 90px;
+    display: flex;
+    flex-direction: column;
 }
 .our-blends__infotitle {
     font-family: 'Anton', sans-serif;
-    font-size: 50px;
+    font-size: 2.8vw;
     text-transform: uppercase;
     line-height: 1.2;
 }
 .ellipsed {
-    background-image: url(../img/our_blends/ellipse.png);
+    background: center / cover no-repeat url("../img/our_blends/ellipse.png")
 }
 .our-blends__infotext {
+    font-family: 'Space Mono', monospace;
+    font-size: 1.27vw;
+    font-weight: 400; 
+    margin-top: 30px;
+    flex: 1 1 auto;
 }
 .our-blends__infomore {
+
 }
 .our-blends__infobtn {
+    background: none;
+    font-family: 'Anton', sans-serif;
+    text-transform: uppercase;
+    margin-right: 15px;
+    font-size: 16px;
 }
 .our-blends__infoimg {
 }
@@ -231,13 +239,20 @@
 .product-cards__item {
     width: 100%;
     height: 33vw;
-    max-height: 580px; 
+    max-height: 600px; 
     border-left: 1px solid #000;
 }
 .product-cards__img img{
     width: 100%;
 }
 .product-cards__title {
+    font-family: 'Anton', sans-serif;
+    font-size: 18px;
+    text-transform: uppercase;
+    margin: 10px 0 25px 43px;
 }
 .product-cards__price {
+    font-family: 'Space Mono', monospace;
+    font-size: 1.27vw;
+    margin: 0 0 50px 43px;
 }
