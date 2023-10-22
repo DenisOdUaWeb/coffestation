@@ -161,19 +161,26 @@
 
 /*small section*/
 .small-section{
+
     border-top: solid 1px #000;  
     min-height: 60px;
-    justify-content: center;
-    align-items: center;
     font-family: 'Space Mono', monospace;
     font-size: 16px;
     line-height: 1;
 }
-.small-section > div{
+.small-section__block > div{
     padding: 0 15px;
+    
+}
+.small-section__block{
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .small-section__block > div:not(:last-child){
+
+    
     border-right: solid 1px #000;
 }
 
