@@ -19,6 +19,10 @@
     }
 }
 
+.wrapper{
+    min-height: 100%;
+    overflow: hidden;
+}
 
 .container{
     overflow: hidden;
@@ -54,8 +58,8 @@
 .nav-header__item > img{
     position: absolute;
     top: 24px;
-    left: 2px;
-    width: inherit;
+    left: 1%;
+    width: 60%;
 }
 .nav-header__item :not(:last-child){
     font-family: 'Space Mono', monospace;
@@ -163,7 +167,7 @@
 .small-section{
 
     border-top: solid 1px #000;  
-    min-height: 60px;
+    
     font-family: 'Space Mono', monospace;
     font-size: 16px;
     line-height: 1;
@@ -173,6 +177,7 @@
     
 }
 .small-section__block{
+    min-height: 60px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -185,3 +190,54 @@
 }
 
 /* OUR BLENDS section*/
+
+.our-blends__container{
+    background-color: #FDF1D9;
+    border-top: 1px solid #000;
+    border-bottom: 1px solid #000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.our-blends__info {
+    width: 50%;
+    padding: 80px 90px;
+}
+.our-blends__infotitle {
+    font-family: 'Anton', sans-serif;
+    font-size: 50px;
+    text-transform: uppercase;
+    line-height: 1.2;
+}
+.ellipsed {
+    background-image: url(../img/our_blends/ellipse.png);
+}
+.our-blends__infotext {
+}
+.our-blends__infomore {
+}
+.our-blends__infobtn {
+}
+.our-blends__infoimg {
+}
+.our-blends__cards {
+    width: 50%;
+}
+.product-cards {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.product-cards__item {
+    width: 100%;
+    height: 33vw;
+    max-height: 580px; 
+    border-left: 1px solid #000;
+}
+.product-cards__img img{
+    width: 100%;
+}
+.product-cards__title {
+}
+.product-cards__price {
+}

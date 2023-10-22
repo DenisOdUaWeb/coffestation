@@ -4,14 +4,18 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://fonts.googleapis.com/css2?family=Space+Mono&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Anton&display=swap" rel="stylesheet">
+    <!--  
+    <link href="https://fonts.googleapis.com/css2?family=Anton&display=swap" rel="stylesheet"> 
+    <link href="fonts/Anton-Regular.ttf" rel="stylesheet">
+     -->  
+    <link rel="stylesheet" href="css/fonts.css">
     <link rel="stylesheet" href="css/reset.css">
     <link rel="stylesheet" href="css/main.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
     <title>Coffee Station</title>
 </head>
 <body>
-    <div class="main">
+    <div class="wrapper">
         <header class="header">
             <div class="container">
                 <div class="header__top">
@@ -22,22 +26,22 @@
                 <div class="header__main">
                     <nav class="nav-header left-nav">
                         <ul class="nav-header__ul" id="nav_sliding_ul">
-                            <li class="nav-header__item"><a class="nav-a" href="#">Home</a>
+                            <li class="nav-header__item"><a class="nav-header__link" href="#">Home</a>
                                 <img src="img/svg.qodef-svg--underline.png" alt="underline">
                             </li>
-                            <li class="nav-header__item"><a class="nav-a" href="#">Pages</a>
+                            <li class="nav-header__item"><a class="nav-header__link" href="#">Pages</a>
                                 <img src="img/svg.qodef-svg--underline.png" alt="underline">
                             </li>
-                            <li class="nav-header__item"><a class="nav-a" href="#">Shop</a>
+                            <li class="nav-header__item"><a class="nav-header__link" href="#">Shop</a>
                                 <img src="img/svg.qodef-svg--underline.png" alt="underline">
                             </li>
-                            <li class="nav-header__item"><a class="nav-a" href="#">Blog</a>
+                            <li class="nav-header__item"><a class="nav-header__link" href="#">Blog</a>
                                 <img src="img/svg.qodef-svg--underline.png" alt="underline">
                             </li>
-                            <li class="nav-header__item displayonless1024 d-none"><a href="#">search</a>
+                            <li class="nav-header__item displayonless1024 d-none"><a class="nav-header__link" href="#">search</a>
                                 <img src="img/svg.qodef-svg--underline.png" alt="underline">
                             </li>
-                            <li class="nav-header__item displayonless1024 d-none"><a href="#">cart(0)</a>
+                            <li class="nav-header__item displayonless1024 d-none"><a class="nav-header__link" href="#">cart(0)</a>
                                 <img src="img/svg.qodef-svg--underline.png" alt="underline">
                             </li>
                         </ul>
@@ -50,10 +54,10 @@
                     <div class="header__rigthside d-flex">
                         <nav class="nav-header right-nav">
                             <ul class ="nav-header__ul">
-                                <li class="nav-header__item"><a href="#">cart(0)</a>
+                                <li class="nav-header__item"><a class="nav-header__link" href="#">cart(0)</a>
                                     <img src="img/svg.qodef-svg--underline.png" alt="underline">
                                 </li>
-                                <li class="nav-header__item"><a href="#">search</a>
+                                <li class="nav-header__item"><a class="nav-header__link" href="#">search</a>
                                     <img src="img/svg.qodef-svg--underline.png" alt="underline">
                                 </li>
                             </ul>
@@ -95,10 +99,48 @@
         
 
         <section class="our-blends">
-              
+            <div class="our-blends__container container">
+                <div class="our-blends__info">
+                    <div class="our-blends__infotitle">
+                        Our blends deliver on the promise of balance and consistency, <span class="ellipsed">roasted to</span> maximize sweetness.
+                    </div>
+                    <div class="our-blends__infotext">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper.
+                    </div>
+                    <div class="our-blends__infomore">
+                        <button class="our-blends__infobtn">View More</button><img class="our-blends__infoimg" src="img/our_blends/arrow.png"> 
+                    </div>
+                </div>
+                <div class="our-blends__cards product-cards">
+                    <div class="product-cards__item">
+                        <div class="product-cards__img">
+                            <img src="img/our_blends/product-1.png">
+                        </div>
+                        <div class="product-cards__title">
+                            Arabica Bekele
+                        </div>
+                        <div class="product-cards__price">
+                            $44.00
+                        </div>
+                    </div>
+                    <div class="product-cards__item">
+                        <div class="product-cards__img">
+                            <img src="img/our_blends/product-2.png">
+                        </div>
+                        <div class="product-cards__title">
+                            Arabica Bekele
+                        </div>
+                        <div class="product-cards__price">
+                            $44.00
+                        </div>
+                    </div>
+                </div>
+            </div>
         </section>
     </div>
 </body>
+
+
 
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
