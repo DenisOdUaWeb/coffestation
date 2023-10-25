@@ -29,6 +29,12 @@
     max-width: 1920px;
     margin: 0 auto;
 }
+._anton-35-black{
+    font-family: 'Anton', sans-serif;
+    font-size: 35px;
+    text-transform: uppercase;
+    line-height: 1.45;
+}
 .header__top{
     font-family: 'Space Mono', monospace;
     font-size: 14px;
@@ -326,4 +332,33 @@
     .more-than__box{
         height: calc(500px + (752 - 500) * ((100vw - 320px) / (1900 - 320)));
     }
+}
+
+
+/*phrase carousel */
+.phrase-carousel__star {
+    display: inline !important;
+    width: auto !important;
+}
+.phrase-carousel__box{
+    display: flex;
+    justify-content: center;
+}
+.phrase-carousel__carousel{
+    text-align: center;
+}
+.phrase-carousel__coll{
+    display: flex;
+    width: 50%;
+    justify-content: center;
+    align-items: center;
+}
+.phrase-carousel__item{
+    display: block;
+    width: 400px;
+    height: 300px;
+}
+.phrase-carousel__right-img>img{
+    width: 100%;
+    object-fit: contain;
 }

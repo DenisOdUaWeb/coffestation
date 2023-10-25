@@ -1,7 +1,7 @@
 "use strict";
 
 document.addEventListener("DOMContentLoaded",function () {
-    //console.log("Hello World!");
+    
     let  bbtn = document.getElementById("bmenubtn");
     let navUl = document.getElementById("nav_sliding_ul");
     //nav_sliding_ul.classList.remove("show-me");
@@ -18,7 +18,7 @@ document.addEventListener("DOMContentLoaded",function () {
      //OWL CAROUSEL 
      const leftArrow = '<img src="img/left-arrow.jpg">';
      const rightArrow = '<img src="img/right-arrow.jpg">';
-    $('.owl-carousel').owlCarousel({
+    $('#header_owl_carousel').owlCarousel({
         loop:true,
         margin: 10,
         nav:true,
@@ -43,7 +43,30 @@ document.addEventListener("DOMContentLoaded",function () {
             //}
         }
     });
-    //END OWL CAROUSEL 
+    //END OWL CAROUSEL  
+
+    //phrase_carousel begining
+    $('#phrase_carousel').owlCarousel({
+        loop:true,
+        margin:300,
+        nav:false,
+        dots:true,
+        autoplay: true,
+        items:1,
+        center:true,
+        autoHeight: true,
+        autoWidth: true,
+        /*responsive:{
+            0:{
+                items:1,
+                center:true,
+                autoHeight: true,
+                autoWidth: true,
+            },
+        }*/
+    });
+
+    //phrase_carousel end 
      
   });
 
