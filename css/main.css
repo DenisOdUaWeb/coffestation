@@ -212,6 +212,7 @@
 }
 
 .ellipsed {
+    word-break: keep-all;
     background: center / cover no-repeat url("../img/our_blends/ellipse.png")
 }
 .our-blends__infotext {
