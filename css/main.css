@@ -553,10 +553,7 @@
     .contact-us__coll_big{
         padding: 10px;
     }
-    .contact-us__text{
-        font-size: 18px;
-    }
-    .contact_us__dots{
+    .contact-us__text,.contact_us__dots{
         font-size: 18px;
     }
 }
