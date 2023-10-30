@@ -587,8 +587,8 @@
 .thats-right-for-you__text{
     padding: 38px 50px;
 }
-/*FOOD SECTION */
 
+/*FOOD SECTION ..........................................................................*/
 .food__wrapper-row {
     border-top: 1px solid #000;
     border-bottom: 1px solid #000;
@@ -660,18 +660,4 @@
     border-bottom: 1px solid #000;
 }
 
-.food__right-coll-title-text-wrapper{
-}
-.food__right-coll-item-title {
-}
-
-.food__right-coll-item-more {
-}
-._infomore {
-}
-.our-blends__infobtn {
-}
-._infomore__btn {
-}
-.our-blends__infoimg {
-}
+/*RESERVE SECTION ..........................................................................*/
