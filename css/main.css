@@ -29,12 +29,31 @@
     max-width: 1920px;
     margin: 0 auto;
 }
+
+
+._big-title{
+    font-family: 'Anton', sans-serif;
+    font-size: 70px;
+    text-transform: uppercase;
+    line-height: 1.1;
+    letter-spacing: -1.4px;
+}
+
 ._anton-35-black{
     font-family: 'Anton', sans-serif;
     font-size: 35px;
     text-transform: uppercase;
     line-height: 1.45;
 }
+._infomore__btn {
+    background: none;
+    font-family: 'Anton', sans-serif;
+    text-transform: uppercase;
+    margin-right: 15px;
+    font-size: 16px;
+}
+
+/*HEADER*/
 .header__top{
     font-family: 'Space Mono', monospace;
     font-size: 14px;
@@ -197,7 +216,7 @@
 
 .our-blends__container{
     background-color: #FDF1D9;
-    border-top: 1px solid #000;
+    #border-top: 1px solid #000;
     border-bottom: 1px solid #000;
     display: flex;
     justify-content: center;
@@ -207,6 +226,7 @@
     padding: 4%;
     display: flex;
     flex-direction: column;
+    border-top: 1px solid #000;
 }
 .our-blends__infotitle {
     font-family: 'Anton', sans-serif;
@@ -229,7 +249,7 @@
     flex: 1 1 auto;
 }
 
-.our-blends__infobtn {
+.our-blends__infobtn, ._infomore__btn {
     background: none;
     font-family: 'Anton', sans-serif;
     text-transform: uppercase;
@@ -240,6 +260,7 @@
     width: 50%;
 }
 .product-cards {
+    border-top: 1px solid #000;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -284,15 +305,21 @@
     .our-blends__info {
         width: 100%;
     }
-    
+    .product-cards{
+        flex-wrap: wrap;
+        width: 100%;
+    }
     .our-blends__cards {
-    width: 100%;
+        flex-wrap: wrap;
+        width: 100%;
     }
     .product-cards__item {
+        flex:1 1 50%;
         height: auto;
     }
     .product-cards__item {
-        border-top: 1px solid #000; 
+        #border-top: 1px solid #000;
+        border-bottom: 1px solid #000;  
     }
 }
 @media(max-width: 600px){
@@ -420,10 +447,8 @@
     }
 }
 
-.contact-us {
-}
-.container {
-}
+/*.contact-us*/
+
 .contact-us__row {
     display: flex;
     justify-content: space-between;
@@ -467,15 +492,7 @@
      border-left: 1px solid #000;
      padding: 50px 22px;
 }
-.contact-us__lisabon {
-    border-left: inherit;
-}
-.contact-us__berlin {
-    border-left: inherit;
-}
-.contact-us__amsterdam {
-    border-left: inherit;
-}
+
 .contact-us__img img{   
     width: 100%;
 
@@ -558,3 +575,45 @@
     }
 }
 
+
+.thats-right-for-you__text{
+    padding: 38px 50px;
+}
+/*FOOD SECTION */
+
+.food__wrapper-row {
+    display: flex;
+}
+.food__left-coll {
+    flex:1 1 40%;
+}
+
+.food__img {
+}
+.food__right-coll {
+    flex:1 1 60%;
+}
+.food__right-coll-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.food__right-coll-title-text-wrapper{
+}
+.food__right-coll-item-title {
+}
+.food__right-coll-item-text {
+    font-family: 'Space Mono', monospace;
+    font-size: 18px;
+}
+.food__right-coll-item-more {
+}
+._infomore {
+}
+.our-blends__infobtn {
+}
+._infomore__btn {
+}
+.our-blends__infoimg {
+}
