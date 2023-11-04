@@ -3,7 +3,9 @@
     --owl-element-max-size: 950px;
   }
 
-
+body{
+    color: #202020;
+}
 .d-flex{
     display: flex;
 }
@@ -233,7 +235,6 @@
 
 .our-blends__container{
     background-color: #FDF1D9;
-    #border-top: 1px solid #000;
     border-bottom: 1px solid #000;
     display: flex;
     justify-content: center;
@@ -335,7 +336,6 @@
         height: auto;
     }
     .product-cards__item {
-        #border-top: 1px solid #000;
         border-bottom: 1px solid #000;  
     }
 }
@@ -792,7 +792,7 @@
 }
 
 .posts-card__img{
-    padding: 0 12px;
+    padding: 15px 12px 0 12px;
 }
 .posts-card__img img{
     border-radius: 10px;
@@ -842,4 +842,150 @@
     .recent-posts__title {
         margin-bottom: 100px;
     }
+}
+
+/* BARISTA SCHOOLS _______________________________________________________________________________________________ */
+
+.barista-schools__row{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: #C5D6D1;
+    border-bottom: 1px solid #000;
+}
+.barista-schools__img{
+    padding: 20px;
+    margin: 118px 0;
+}
+.barista-schools__img img{ 
+    width: 100%;
+    border-radius: 10px;
+}
+.barista-schools__info{
+    max-width: 407px;
+    padding: 20px;
+}
+.barista-schools__title{
+    margin: 0 0 11px 0;
+}
+.barista-schools__text{
+    font-family: 'Space mono', monospace;
+    font-size: calc(15px + (18 - 15) * ((100vw - 320px) / (1900 - 320)));
+    margin: 0 0 50px 0;
+}
+@media(max-width: 1024px){
+    .barista-schools__row{
+        flex-direction: column;
+    }
+    .barista-schools__img{
+        padding: 33px;
+        margin: 50px 0;
+    }
+    .barista-schools__info{
+        max-width: unset;
+        padding: 33px;
+    }
+}
+@media(max-width: 575px){
+        .barista-schools__img, .barista-schools__info{
+        padding: 14px;
+    }
+}
+
+/* OUR SUPPLIES*/
+
+.supplies__big-title {
+    padding: 34px 50px;
+    border-bottom: 1px solid #000;
+}
+.supplies__row {
+    display: flex;
+    flex-wrap: wrap;
+}
+.supplies__item {
+    flex: 1 1 20%;
+    border-right: 1px solid #000;
+    border-bottom: 1px solid #000;
+}
+.item-supplies {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 310px;
+    min-width: 273px;
+}
+.item-supplies__img img{
+   padding: 15px;
+   width: 100%;
+}
+
+@media(max-width: 1400px){
+    .supplies__item {
+        flex: 1 1 20%;
+        border-right: 1px solid #000;
+        height: 310px;
+        min-width: 273px;
+    }
+}
+
+
+/*OUR COFFE MENU __________________________________________________________________*/
+
+.coffee-menu__row {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.coffee-menu__menu {
+    flex: 1 1 50%;
+}
+.coffee-menu__menu-ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.coffee-menu-list {
+
+}
+.coffee-menu-list__item {
+}
+.coffee-menu-list__title-price {
+    display: flex;
+    justify-content: space-between;
+   
+}
+.coffee-menu-list__title {
+    font-family: 'Anton', sans-serif;
+    font-size: 20px;
+    text-transform: uppercase;
+}
+.coffee-menu-list__price {
+}
+.coffee-menu-list__description {
+}
+.coffee-menu__titleimg{
+    flex: 1 1 50%;
+    position: relative;
+    $padding-bottom: 72.5%;
+}
+.coffee-menu__titleimg img{
+    width:100%;
+    #position: absolute;
+    #object-fit: cover;
+    #object-position: center;
+}
+.coffee-menu__titleimg-title{
+    $position: absolute;
+    $z-index: 2;
+    $top: 50%;
+    $left: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.coffee-menu__titleimg-title h1{
+    color: #FBED81;
+    font-family: 'Mansalva';
+    font-size: 110px;
 }
