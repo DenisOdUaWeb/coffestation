@@ -30,3 +30,11 @@ a:hover{
 li{
     list-style: none;
 }
+
+/* NOT WORKING  >?>?>?>?>*/
+address{
+	font-style: none;
+	-ms-font-style: none;
+	-moz-font-style: none;
+	-webkit-font-style: none;
+}

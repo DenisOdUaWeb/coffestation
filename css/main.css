@@ -1050,4 +1050,96 @@ body{
 }
 .cards-box__item img {
     border-radius: 10px;
+    width: 100%;
 }
+@media(max-width: 851px){
+    .cards-box__item {
+        flex-grow: 1;
+    }
+    .follow-us__cards-wripper {
+        $padding: 30px;
+    }
+    .cards-box__item {
+        text-align: center;
+        margin: 0 0 40px 0;
+    }
+    .cards-box__item img {
+        width: 80%;
+        text-align: center;
+    }
+}
+@media(max-width: 575px){
+    .cards-box__item img {
+        width: 100%;
+        text-align: center;
+    }
+    .follow-us__cards-wripper {
+        padding: 20px;
+    }
+}
+
+
+/*FOTER _____________________________________________________________________________*/
+
+.emphasized{
+    position: relative;
+}
+.emphasized::before{
+    content: '';
+    display: inline-block;
+    width: 50px;
+    position: absolute;
+    left: 3%;
+    bottom: 0px;
+    height: 4px;
+    background: center / cover no-repeat url('../img/emphasized.png');
+}
+.footer__row {
+    border-top: 1px solid #000;
+    display: flex;
+    padding: 68px;
+    flex-wrap: wrap;
+}
+.footer__coll {
+    flex: 1 1 auto;
+}
+.footer__coll_big {
+    flex: 1 1 50%;
+    display: flex;
+}
+.footer__logo {
+    margin: 0 36px 0 0;
+}
+.footer__info {
+    display: inline-block;
+    min-width: 240px;
+
+}
+.footer__info-title {
+    font-family: 'Anton', sans-serif;
+    font-size: 30px;
+}
+.footer__info-address,.footer__info-tel ,.footer__info-city{
+    font-family: 'Space mono', monospace;
+    font-size: 18px;
+    line-height: 28px;
+}
+.footer__social ,.footer__nav-item {
+    font-family: 'Space mono', monospace;
+    font-size: 16px;
+    line-height: 28px;
+}
+@media(max-width: 1024px){
+    .footer__row,.footer__coll_big {
+        display: block;
+        margin: 25px 0;
+    }
+    .footer__logo , .footer__info-title{
+        margin: 25px 0;
+    }
+    .footer__social {
+        margin: 25px 0 0 0px;
+    }
+
+}
+
