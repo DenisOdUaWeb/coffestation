@@ -38,12 +38,18 @@ body{
 ._absolute{
     position: absolute;
 }
+
 ._big-title{
     font-family: 'Anton', sans-serif;
-    font-size: calc(40px + (70 - 40) * ((100vw - 320px) / (1900 - 320)));
+     font-size:70px;
     text-transform: uppercase;
     line-height: 1.1;
     letter-spacing: -1.4px;
+}
+@media(max-width: 1900px){
+    ._big-title{
+        font-size: calc(40px + (70 - 40) * ((100vw - 320px) / (1900 - 320)));
+    }
 }
 
 ._anton-35-black{
@@ -286,6 +292,7 @@ body{
 .product-cards__item {
     width: 100%;
     height: 33vw;
+    max-height: 645px;
     border-left: 1px solid #000;
 }
 .product-cards__img img{
@@ -299,10 +306,13 @@ body{
 }
 .product-cards__price {
     font-family: 'Space Mono', monospace;
-    font-size: 1.27vw;
+    font-size: 35px;
     margin: 0 0 50px 43px;
 }
 @media (max-width: 1900px){
+    .product-cards__price {
+        font-size: calc(20px + (35 - 20) * ((100vw - 320px) / (1900 - 320)));
+    }
     .our-blends__infotitle {
         font-size: calc(27px + (50 - 27) * ((100vw - 320px) / (1900 - 320)));
     }
@@ -343,8 +353,8 @@ body{
     .our-blends__info{
         padding: 4% 5%;
     }
-    .product-cards__title,.product-cards__price{
-        font-size: 4vw;
+    .product-cards__title{
+        #font-size: 4vw;
         margin: 10px auto;
         text-align: center;
     }
